@@ -64,7 +64,7 @@ class ProfileVC: UIViewController, UIImagePickerControllerDelegate, UINavigation
         self.dismiss(animated: true, completion: nil)
     }
     
-    // MARK: Buttons
+    // MARK: Button
     
     @IBAction func selectImage(_ sender: Any) {
         present(imagePicker, animated: true, completion: nil)
