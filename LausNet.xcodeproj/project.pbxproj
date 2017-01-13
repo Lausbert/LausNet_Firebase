@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D19097C1E29164C009DF299 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D19097B1E29164C009DF299 /* GoogleService-Info.plist */; };
 		8D2496851DBA1BAC00F2FF77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2496841DBA1BAC00F2FF77 /* AppDelegate.swift */; };
 		8D2496871DBA1BAC00F2FF77 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2496861DBA1BAC00F2FF77 /* LoginVC.swift */; };
 		8D24968A1DBA1BAC00F2FF77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D2496881DBA1BAC00F2FF77 /* Main.storyboard */; };
@@ -21,7 +22,6 @@
 		8D2496A81DBA268400F2FF77 /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2496A71DBA268400F2FF77 /* MaterialButton.swift */; };
 		8D2496AA1DBA2AA800F2FF77 /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2496A91DBA2AA800F2FF77 /* MaterialTextField.swift */; };
 		8D53F6731E06C2D6008E3CD2 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D53F6721E06C2D6008E3CD2 /* Alerts.swift */; };
-		8D53F6751E06C6FD008E3CD2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D53F6741E06C6FD008E3CD2 /* GoogleService-Info.plist */; };
 		8D7332B91DE70BFA006615D4 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7332B81DE70BFA006615D4 /* FeedVC.swift */; };
 		8D7332BB1DE70CFC006615D4 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7332BA1DE70CFC006615D4 /* PostCell.swift */; };
 		8D7481B71DE84DDA009D574E /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7481B61DE84DDA009D574E /* Post.swift */; };
@@ -37,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		4627B9FA2C453460CBC28C22 /* Pods_LausNet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LausNet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D19097B1E29164C009DF299 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8D2496811DBA1BAC00F2FF77 /* LausNet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LausNet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D2496841DBA1BAC00F2FF77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D2496861DBA1BAC00F2FF77 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
@@ -53,7 +54,6 @@
 		8D2496A71DBA268400F2FF77 /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
 		8D2496A91DBA2AA800F2FF77 /* MaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTextField.swift; sourceTree = "<group>"; };
 		8D53F6721E06C2D6008E3CD2 /* Alerts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
-		8D53F6741E06C6FD008E3CD2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8D7332B81DE70BFA006615D4 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		8D7332BA1DE70CFC006615D4 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		8D7481B61DE84DDA009D574E /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
@@ -113,7 +113,7 @@
 				8D24968B1DBA1BAC00F2FF77 /* Assets.xcassets */,
 				8D24968D1DBA1BAC00F2FF77 /* LaunchScreen.storyboard */,
 				8D2496901DBA1BAC00F2FF77 /* Info.plist */,
-				8D53F6741E06C6FD008E3CD2 /* GoogleService-Info.plist */,
+				8D19097B1E29164C009DF299 /* GoogleService-Info.plist */,
 				8DC1B53F1DBA4B8A001E7981 /* LausNet.entitlements */,
 			);
 			path = LausNet;
@@ -268,7 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D24969E1DBA1BFE00F2FF77 /* NotoSans-Bold.ttf in Resources */,
-				8D53F6751E06C6FD008E3CD2 /* GoogleService-Info.plist in Resources */,
+				8D19097C1E29164C009DF299 /* GoogleService-Info.plist in Resources */,
 				8D24968F1DBA1BAC00F2FF77 /* LaunchScreen.storyboard in Resources */,
 				8D24969F1DBA1BFE00F2FF77 /* NotoSans-BoldItalic.ttf in Resources */,
 				8D2496A01DBA1BFE00F2FF77 /* NotoSans-Italic.ttf in Resources */,
