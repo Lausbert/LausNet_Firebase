@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11761" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C68" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -7,6 +7,7 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -22,28 +23,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EjZ-pq-Uz0">
-                                <rect key="frame" x="67" y="213" width="240" height="240"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchscreen" translatesAutoresizingMaskIntoConstraints="NO" id="eSP-fJ-RHp">
+                                <rect key="frame" x="16" y="161.5" width="343" height="343"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="240" id="RNW-yM-xZb"/>
-                                    <constraint firstAttribute="height" constant="240" id="e7B-8U-W3o"/>
-                                    <constraint firstAttribute="width" secondItem="EjZ-pq-Uz0" secondAttribute="height" multiplier="1:1" id="p4x-jM-hkM"/>
+                                    <constraint firstAttribute="width" secondItem="eSP-fJ-RHp" secondAttribute="height" multiplier="1:1" id="e15-48-Oa5"/>
                                 </constraints>
-                            </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LausNet" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NX4-sh-VNK">
-                                <rect key="frame" x="113.5" y="309.5" width="147" height="48"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.23529411764705882" green="0.73725490196078436" blue="0.40784313725490196" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="NX4-sh-VNK" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="BVQ-Ct-fHP"/>
-                            <constraint firstItem="EjZ-pq-Uz0" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="LMf-Wm-5DM"/>
-                            <constraint firstItem="EjZ-pq-Uz0" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Xry-WJ-LBB"/>
-                            <constraint firstItem="NX4-sh-VNK" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="bR6-aJ-G3M"/>
+                            <constraint firstItem="eSP-fJ-RHp" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Qcm-s3-V6Q"/>
+                            <constraint firstItem="eSP-fJ-RHp" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="WYc-8p-zCv"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="eSP-fJ-RHp" secondAttribute="trailing" id="rDH-a3-oeD"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -52,4 +43,7 @@
             <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="launchscreen" width="455" height="391"/>
+    </resources>
 </document>
